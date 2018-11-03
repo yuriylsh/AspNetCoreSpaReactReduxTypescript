@@ -1,4 +1,4 @@
-import './index.css';
+import './index.scss';
 // tslint:disable-next-line:ordered-imports
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
