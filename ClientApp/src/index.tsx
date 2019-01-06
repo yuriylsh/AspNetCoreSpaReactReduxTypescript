@@ -1,14 +1,11 @@
-import './index.scss';
-// tslint:disable-next-line:ordered-imports
+import { ConnectedRouter } from 'connected-react-router';
+import { createBrowserHistory } from 'history';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { ConnectedRouter } from 'react-router-redux';
-// tslint:disable-next-line:ordered-imports
-import { createBrowserHistory } from 'history';
-import configureStore from './store/configureStore';
-// tslint:disable-next-line:ordered-imports
 import App from './App';
+import './index.scss';
+import configureStore from './store/configureStore';
 
 // Create browser history to use in the Redux store
 const baseUrl = document.getElementsByTagName('base')[0].getAttribute('href') as string;
